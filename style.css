@@ -181,3 +181,44 @@ footer a{
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+
+    #featured li{
+        width: 46%;
+    }
+    
+    header nav{
+        float: none;
+    }
+    
+    
+    h1.logo{
+        float: none;
+        margin-inline: auto;
+    }
+    
+    footer .wrapper ul{
+        width: 46%;
+        text-align: center;
+    }
+    
+    
+    
+    }
+    
+    @media screen and (max-width: 480px){
+    #featured li{
+        width: 95%;
+        margin-inline: auto;
+    }
+    
+    #main-banner img{
+        width: 180%;
+        position: relative;
+        left: -180px
+    }
+    
+    
+    
+    }
+
